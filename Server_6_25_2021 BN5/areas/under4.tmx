@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="31" height="20" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="3">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/custom/backgrounds/BN5 Undernet BG/BG.animation"/>
+  <property name="Background Texture" value="/server/assets/custom/backgrounds/BN5 Undernet BG/BG.png"/>
+  <property name="Background Vel X" type="float" value="0"/>
+  <property name="Background Vel Y" type="float" value="0"/>
+  <property name="Name" value="Undernet 4"/>
+  <property name="Song" value="/server/assets/music/4.40 Depth.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/under4_liberated.tsx"/>
+ <tileset firstgid="2" source="../assets/tiles/tile.tsx"/>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" gid="1" x="132" y="50" width="1220" height="660"/>
+  <object id="2" name="under4Tounder3" type="Radius Warp" x="912" y="480">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_left_in"/>
+    <property name="Leave Animation" value="arrow_down_left_out"/>
+    <property name="Target Area" value="under3"/>
+    <property name="Target Object" value="4"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="1" name="Tile Layer 1" width="31" height="20" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,0,0,2,2,2,0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,0,0,2,2,2,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,
+0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,
+0,0,0,0,0,2,2,2,2,2,2,0,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,0,
+0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,0,
+0,0,0,0,0,0,2,2,2,2,2,2,0,2,2,2,2,2,2,0,0,2,2,2,2,2,0,0,2,0,0,
+0,0,0,0,0,0,0,2,2,2,2,0,0,2,2,2,2,2,2,2,0,0,2,2,2,0,0,0,2,0,0,
+0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,2,0,0,
+0,0,2,2,2,0,2,2,2,2,0,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,2,0,0,
+0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,2,2,2,0,2,2,2,2,2,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2,0,0,0,0,0,0,2,2,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="26" height="36" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="4">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/custom/backgrounds/BN5 Scilab BG/BG.animation"/>
+  <property name="Background Texture" value="/server/assets/custom/backgrounds/BN5 Scilab BG/BG.png"/>
+  <property name="Background Vel X" type="float" value="0.1"/>
+  <property name="Background Vel Y" type="float" value="0.1"/>
+  <property name="Name" value="Scilab 3"/>
+  <property name="Song" value="/server/assets/music/04 Internet.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/scilab3_liberated.tsx"/>
+ <tileset firstgid="2" source="../assets/tiles/tile.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="26" height="36" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,
+0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,2,0,0,0,2,2,2,2,2,0,0,0,0,0,2,2,2,2,2,0,2,2,2,0,
+0,0,2,0,0,0,2,2,2,2,2,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,
+0,0,2,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,
+0,2,2,2,2,0,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,
+0,2,2,2,2,2,2,2,2,2,2,0,0,0,0,2,2,2,2,2,2,2,0,0,0,0,
+0,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,0,0,0,0,0,
+0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,0,0,0,0,0,0,
+0,0,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,2,0,
+0,0,0,0,2,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,
+0,0,0,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,2,2,0,
+0,0,0,2,2,2,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,2,2,2,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,2,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,2,0,0,0,0,2,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="1" gid="1" x="122.5" y="133.5" width="1150" height="800"/>
+  <object id="2" name="scilab3Toscilab2" type="Radius Warp" x="592" y="1088">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_left_in"/>
+    <property name="Leave Animation" value="arrow_down_left_out"/>
+    <property name="Target Area" value="scilab2"/>
+    <property name="Target Object" value="3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="3" name="scilab3Toscilab4" type="Radius Warp" x="112" y="224">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_up_right_in"/>
+    <property name="Leave Animation" value="arrow_up_right_out"/>
+    <property name="Target Area" value="scilab4"/>
+    <property name="Target Object" value="2"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>

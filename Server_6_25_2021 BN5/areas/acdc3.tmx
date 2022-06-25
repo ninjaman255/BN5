@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.0" orientation="isometric" renderorder="right-down" width="29" height="28" tilewidth="64" tileheight="32" infinite="0" nextlayerid="3" nextobjectid="89">
+ <properties>
+  <property name="Background" value="custom"/>
+  <property name="Background Animation" value="/server/assets/custom/backgrounds/BN5 ACDC BG/ACDC.animation"/>
+  <property name="Background Texture" value="/server/assets/custom/backgrounds/BN5 ACDC BG/ACDC.png"/>
+  <property name="Background Vel X" type="float" value="0.4"/>
+  <property name="Background Vel Y" type="float" value="0.125"/>
+  <property name="Name" value="ACDC 3"/>
+  <property name="Song" value="/server/assets/music/04 Internet.ogg"/>
+ </properties>
+ <tileset firstgid="1" source="../assets/tiles/acdc3 unliberated paths.tsx"/>
+ <tileset firstgid="2" source="../assets/tiles/panel base.tsx"/>
+ <tileset firstgid="5" source="../assets/tiles/panels.tsx"/>
+ <tileset firstgid="75" source="../assets/tiles/walkable space.tsx"/>
+ <tileset firstgid="79" source="../assets/tiles/selected tile.tsx"/>
+ <tileset firstgid="85" source="../assets/tiles/attack indicator.tsx"/>
+ <tileset firstgid="86" source="../assets/tiles/acdc3-liberated.tsx"/>
+ <tileset firstgid="87" source="../assets/tiles/tile.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="29" height="28" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,87,87,87,87,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,87,87,87,87,87,87,87,87,87,87,87,87,87,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,87,0,0,0,0,0,87,0,0,87,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,87,0,0,0,0,87,87,87,0,87,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,87,0,0,0,0,87,87,87,0,87,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,87,0,0,0,0,87,87,87,0,87,87,87,87,87,0,0,0,0,0,0,0,0,0,0,0,
+0,87,87,87,87,0,87,87,87,87,87,87,0,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,87,87,87,87,87,87,0,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,87,87,87,87,87,87,0,87,87,87,87,87,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,87,87,87,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,87,87,87,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,87,87,87,0,0,87,0,0,0,0,87,87,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,87,87,87,87,87,87,0,0,0,0,87,87,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,87,87,87,0,0,87,0,0,0,0,87,87,87,0,0,0,0,0,0,0,87,87,0,0,0,0,0,
+0,0,0,0,0,0,0,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,87,0,0,0,0,0,0,
+0,0,0,0,0,0,0,87,0,0,0,0,0,0,87,87,87,87,0,0,0,87,87,87,0,0,0,0,0,
+0,0,0,0,0,0,0,87,0,0,0,0,0,0,87,87,87,87,87,87,87,87,87,87,87,87,87,87,0,
+0,0,0,0,0,0,0,87,0,0,0,0,0,0,87,87,87,87,0,0,0,87,87,87,0,0,0,0,0,
+0,0,0,0,0,0,0,87,0,87,87,87,0,0,87,0,0,0,0,0,0,0,87,0,0,0,0,0,0,
+0,0,0,0,0,0,0,87,87,87,87,87,87,87,87,0,0,0,0,0,0,87,87,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,87,87,87,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Object Layer 1">
+  <object id="86" gid="86" x="126" y="100" width="1036" height="648"/>
+  <object id="87" name="acdc3Toacdc2" type="Radius Warp" x="864" y="592">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_down_right_in"/>
+    <property name="Leave Animation" value="arrow_down_right_out"/>
+    <property name="Target Area" value="acdc2"/>
+    <property name="Target Object" value="14"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" name="acdc3Tooran" type="Radius Warp" x="64" y="272">
+   <properties>
+    <property name="Activation Radius" type="float" value="0.6"/>
+    <property name="Arrival Animation" value="arrow_up_left_in"/>
+    <property name="Leave Animation" value="arrow_up_left_out"/>
+    <property name="Target Area" value="oran1"/>
+    <property name="Target Object" value="3"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
