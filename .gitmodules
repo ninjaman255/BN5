@@ -1,0 +1,6 @@
+[submodule "Server_6_25_2021 BN5/scripts/ezlibs-scripts"]
+	path = Server_6_25_2021 BN5/scripts/ezlibs-scripts
+	url = https://github.com/Keristero/ezlibs-scripts
+[submodule "Server_6_25_2021 BN5/assets/ezlibs-assets"]
+	path = Server_6_25_2021 BN5/assets/ezlibs-assets
+	url = https://github.com/Keristero/ezlibs-assets
