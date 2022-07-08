@@ -1,1 +1,1 @@
-net_battle_server.exe -p 5000
+net_battle_server.exe -p 5000 --resend-budget 131070
