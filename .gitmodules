@@ -4,3 +4,6 @@
 [submodule "Server_6_25_2021 BN5/assets/ezlibs-assets"]
 	path = Server_6_25_2021 BN5/assets/ezlibs-assets
 	url = https://github.com/Keristero/ezlibs-assets
+[submodule "Server_6_25_2021 BN5/Scriptable-OpenNetBattle-Server"]
+	path = Server_6_25_2021 BN5/Scriptable-OpenNetBattle-Server
+	url = https://github.com/ArthurCose/Scriptable-OpenNetBattle-Server
