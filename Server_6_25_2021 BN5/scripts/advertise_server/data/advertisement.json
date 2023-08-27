@@ -1,0 +1,18 @@
+{
+    "listservers":{
+        "main":"http://www.keristero.xyz/server_list/"
+    },
+    "advertisements":[
+        {
+            "unique_server_id":"BN5",
+            "name":"BN5",
+            "description":"Recreation of Bn5 internet areas, WIP",
+            "tags":["pvp"],
+            "address":"159.223.165.219:5000",
+            "data":"",
+            "icon":"advertisement.png",
+            "color":"rgb(255,255,255)",
+            "advertise_map":true
+        }
+    ]
+}
